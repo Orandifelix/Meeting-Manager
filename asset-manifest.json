@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Meeting-Manager/static/css/main.7f7443ee.css",
+    "main.js": "/Meeting-Manager/static/js/main.74135ccd.js",
+    "index.html": "/Meeting-Manager/index.html",
+    "main.7f7443ee.css.map": "/Meeting-Manager/static/css/main.7f7443ee.css.map",
+    "main.74135ccd.js.map": "/Meeting-Manager/static/js/main.74135ccd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7f7443ee.css",
+    "static/js/main.74135ccd.js"
+  ]
+}
