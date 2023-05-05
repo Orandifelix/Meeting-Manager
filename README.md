@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+# Meetings Manager
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description  
+This is a web application that allows users to manage their meetings. Users can add all the meetings they have and view them on the "All Meetups" page. Users can also add meetings to their favorites list and remove them from it.
 
-## Available Scripts
 
-In the project directory, you can run:
+>Developed By  [Orandi-Felix](https://github.com/Orandifelix)  
+  
 
-### `npm start`
+##  Live Link  
+>[View Site](https://orandifelix.github.io/Project-eReviews/#Home)  to visit the site
+  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
+  
+* Add a new meetup: Users can add a new meeting to the list of their meetings.
+* View all meetups: Users can view a list of all the meetings they have added to the application.
+* Favorite a meetup: Users can mark a meeting as a favorite by clicking on a  button.
+* View favorite meetups: Users can view a list of all their favorite meetings.
+* Remove a favorite meetup: Users can remove a meeting from their list of favorite meetings.
+    
+## Setup and Installation  
+To get the project .......  
+  
+##### Cloning the repository:  
+```bash 
+https://github.com/Orandifelix/Meeting-Manager
+```
+##### Open terminal and  navigate into the folder
+ ```bash 
+cd My-Meeting Manager
+``` 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+##### Install the application
+```bash
+npm install
+It installs all  the  app dependancies. 
+```
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+##### Run the application  
+ ```bash 
+ npm start
+Runs the app in the development mode.
+Open http://localhost:3000 to view it in your browser.
 
-### `npm run build`
+``` 
+##### Testing the application  
+ ```npm test
+Launches the test runner in the interactive watch mode.
+See the section about running tests for more information.
+``` 
+  
+## Technology used  
+  
+* React: A JavaScript library for building user interfaces. 
+* [CSS](https://www.w3schools.com/css/)  
+* HTML: A markup language used to structure the web application.
+* [Github Pages]()
+*   
+  
+  
+## Known Bugs  
+* The meetings disapper from favorites once you reload. Working  on permanent capture of the data.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Please make sure to update tests as appropriate.
+  
+## Contact Information   
+For any contributions towards this project:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Email: felixorandi@gmail.com
+* Linkedin: (https://www.linkedin.com/in/orandi-felix/)
+  
+## License 
 
-### `npm run eject`
+Copyright (c) 2023 Orandi Felix
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+THE SOFTWARE IS PROVIDED "AS IT IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
